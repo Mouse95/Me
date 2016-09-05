@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #DDDDDD;
+}
+
+.backDiv {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.centerMain {
+    display: none;
+    width: 1280px;
+    height: 720px;
+    background-color: #FFF;
+    position: absolute;
+    margin-left: 0;
+}
+
+.leftNav {
+    background-color: #353535;
+    position: absolute;
+    width: 260px;
+    height: 720px;
+    left: 510px;
+
+}
+
+.leftNav .imgDiv {
+    width: 50%;
+    margin-top: 65px;
+    margin-bottom: 25px;
+}
+
+.leftNav .imgDiv img {
+    border-radius: 10px;
+}
+
+.leftNav .imgDiv p {
+    text-align: center;
+    font-size: 30px;
+    color: #FFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.leftNav .imgDiv .list {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.rightPanel {
+    width: 890px;
+    height: 590px;
+    position: absolute;
+    left: 325px;
+    top: 65px;
+}
+
+.information {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.work {
+    display: none;
+    color: #000000;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #E5E5E5;
+    border-radius: 20px;
+}
+
+.work span {
+    padding-left: 30px;
+}
+
+.hobby {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.hobby div {
+    border-radius: 20px;
+    background-color: #F5EEFF;
+    color: #000;
+    text-align: center;
+    font-size: 26px;
+    width: 300px;
+    height: 200px;
+    padding-top: 45px;
+}
+
+.hobby td {
+    padding: 50px;
+}
+
+.education {
+    display: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #DDDDDD;
+}
+
+.education span {
+    padding-left: 30px;
+}
+
+.opinion {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: #353535;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
